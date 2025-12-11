@@ -7,7 +7,7 @@
             <PageHeaderDescription>{{ siteConfig.description }}</PageHeaderDescription>
 
             <Button as-child>
-                <NuxtLink to="/docs/get-started">
+                <NuxtLink to="/docs/getting-started/introduction">
                     Get Started
                 </NuxtLink>
             </Button>
