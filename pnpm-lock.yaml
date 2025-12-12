@@ -88,8 +88,8 @@ importers:
         specifier: ^2.4.2
         version: 2.4.3(eslint@9.39.1(jiti@2.6.1))(magicast@0.5.1)(typescript@5.9.3)(vue@3.5.25(typescript@5.9.3))
       shadcn-vue-registry:
-        specifier: 0.0.0-beta.7
-        version: 0.0.0-beta.7
+        specifier: 0.0.0-beta.8
+        version: 0.0.0-beta.8
       shiki:
         specifier: ^3.17.0
         version: 3.19.0
@@ -5166,8 +5166,8 @@ packages:
   shadcn-nuxt@2.3.3:
     resolution: {integrity: sha512-zx2mwC68aKRmPjG6iB0SFh+zguNQxLH7SXeY9xGIcmXTAz1HJhnu7gjj5/PcPbZqNm3Sbsj1F3Tvt77glfC6Pw==}
 
-  shadcn-vue-registry@0.0.0-beta.7:
-    resolution: {integrity: sha512-ZRGbEaV7Sy9XGzb3wiiZbCxCf4acNe2rArS6YsY220uLENCkvHW02Lo92r1PBBd29sa1bO+bDAsvBE4Pox5i8w==}
+  shadcn-vue-registry@0.0.0-beta.8:
+    resolution: {integrity: sha512-lU9FjRh3JXNUmm/2kFRwu6DWEy+oXFmnOMMWQ5ja3R3vT8RmrBphsc3G1XF7NaA0LKQH0p6iRAkILLRsX224EA==}
     hasBin: true
 
   shadcn-vue@2.4.3:
@@ -11950,7 +11950,7 @@ snapshots:
     transitivePeerDependencies:
       - magicast
 
-  shadcn-vue-registry@0.0.0-beta.7:
+  shadcn-vue-registry@0.0.0-beta.8:
     dependencies:
       ansis: 4.2.0
       cac: 6.7.14
