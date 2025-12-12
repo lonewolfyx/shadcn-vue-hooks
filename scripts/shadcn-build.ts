@@ -20,6 +20,10 @@ import { mkdir, unlink, writeFile } from 'node:fs/promises';
         registries: components.registries,
         cwd: registryPath,
         output: registryPath,
+        scanPatterns: {
+            componentPattern: '*/*',
+            filePattern: '*',
+        },
     }
 
     const registryJson = await generateShadcnRegistry(config)
