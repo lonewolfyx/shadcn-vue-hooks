@@ -1,5 +1,5 @@
 {
-    "name": "shadcn-vue-registry-template",
+    "name": "shadcn-vue-hooks",
     "type": "module",
     "private": true,
     "packageManager": "pnpm@10.15.1",
