@@ -35,6 +35,7 @@ export function createContext<ContextValue>(
             return context
 
         if (context === null)
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
             return context as any
 
         throw new Error(
